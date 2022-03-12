@@ -76,7 +76,7 @@ const Button = styled.button`
   font-size: 16px;
   line-height: 1;
   display: inline-block;
-  padding: 19px 50px 21px;
+  padding: 19px 50px 19px;
   text-transform: uppercase;
   color: #010101;
   border: 1px solid #333;
@@ -109,7 +109,7 @@ const Slider = () => {
             <InfoContainer>
               <Title>{item.title}</Title>
               <Desc>{item.desc}</Desc>
-              <Button>SHOW NOW</Button>
+              <Button>SHOP NOW</Button>
             </InfoContainer>
           </Slide>
         ))}
